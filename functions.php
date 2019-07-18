@@ -282,7 +282,7 @@ function getGravatar($email, $s = 96, $d = 'mp', $r = 'g', $img = false, $atts =
             $url .= ' />';
         }
     }else{
-        $url = $this->options->themeUrl('img/head.jpg');
+        $url = "http://localhost/typecho/usr/themes/7TEC/img/head.jpg";
     }
     return  $url;
 }
